@@ -38,6 +38,11 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 TARGET_HAS_FOD := true
+WITH_FOD_ANIMATIONS := true
+
+# Platform
+PRODUCT_BOARD_PLATFORM := kona
+PRODUCT_USES_QCOM_HARDWARE := true
 
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
