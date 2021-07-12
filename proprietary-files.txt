@@ -756,3 +756,6 @@ vendor/firmware/vehicle_dacia_RTP.bin
 vendor/firmware/vehicle_moto_RTP.bin
 vendor/firmware/vehicle_plane_RTP.bin
 vendor/firmware/Vigor_RTP.bin
+
+# Misc
+vendor/etc/mdss_dsi_j11_38_08_0a_fhd_cmd_mi.xml
