@@ -32,5 +32,8 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_lmi
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/lmi_defconfig
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Inherit from the proprietary version
 include vendor/xiaomi/lmi/BoardConfigVendor.mk
